@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_gradient"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/firstLinear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/clock"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_clock"
+        android:layout_height="20dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        tools:text="JUST NOW"
+        android:id="@+id/tvPublishedAt"
+        android:textColor="@color/white"
+        android:fontFamily="@font/dinbold"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:layout_marginStart="50dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            tools:text="JUST NOW"
+            android:id="@+id/tvSource"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/dinextralight"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ivArticleImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@id/firstLinear"
+        app:layout_constraintTop_toTopOf="@id/firstLinear" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/titleLayout"
+        android:background="@color/transdarkgradstart"
+        app:layout_constraintBottom_toBottomOf="@+id/ivArticleImage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="110dp">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BT News</string>
+    <string name="breaking_news">Breaking</string>
+    <string name="saved_news">Favourites</string>
+    <string name="search_news">Search</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search...</string>
+    <string name="here_sleeps_henry_not_to_be_woken">Here sleeps Henry, not to be woken.</string>
+</resources>

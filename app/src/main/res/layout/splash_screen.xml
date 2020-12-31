@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:src="@mipmap/henry_foreground"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:text="@string/here_sleeps_henry_not_to_be_woken"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/darkruby"
+        android:fontFamily="@font/mulibold"
+        android:layout_marginTop="220dp"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"/>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkgradstart">#03012E</color>
+    <color name="transdarkgradstart">#5003012E</color>
+    <color name="darkgradend">#03011C</color>
+    <color name="turquoisegradstart">#047FB0</color>
+    <color name="turquoisegradend">#03334C</color>
+    <color name="lightturquoise">#047FB0</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="dark_navy">#000f33</color>
+    <color name="dark_blue_grey">#1d2552</color>
+    <color name="battleship_grey">#666f85</color>
+    <color name="transparent">#00000000</color>
+    <color name="bluey_grey">#919eba</color>
+    <color name="dark">#222943</color>
+    <color name="butterscotch">#fdba4d</color>
+    <color name="reddish">#ce3b3b</color>
+    <color name="medium_green">#3cba54</color>
+    <color name="orangey_red">#ff3b30</color>
+    <color name="tangerine">#ff9500</color>
+    <color name="marigold">#ffcc00</color>
+    <color name="weird_green">#4cd964</color>
+    <color name="white">#ffffff</color>
+    <color name="darkruby">#870052</color>
+    <color name="black">#101010</color>
+    <color name="dark_green">#018b69</color>
+    <color name="robin_s_egg">#5ac8fa</color>
+    <color name="deep_sky_blue">#007aff</color>
+    <color name="warm_blue">#5856d6</color>
+</resources>
